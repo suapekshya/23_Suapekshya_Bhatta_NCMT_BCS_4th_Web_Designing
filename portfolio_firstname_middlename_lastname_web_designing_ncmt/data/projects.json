@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Project One",
+    "description": "A short description of your first project goes here.",
+    "image": "assets/images/projects/project1.jpg",
+    "link": "#"
+  },
+  {
+    "title": "Project Two",
+    "description": "A short description of your second project goes here.",
+    "image": "assets/images/projects/project2.jpg",
+    "link": "#"
+  },
+  {
+    "title": "Project Three",
+    "description": "A short description of your third project goes here.",
+    "image": "assets/images/projects/project3.jpg",
+    "link": "#"
+  }
+]

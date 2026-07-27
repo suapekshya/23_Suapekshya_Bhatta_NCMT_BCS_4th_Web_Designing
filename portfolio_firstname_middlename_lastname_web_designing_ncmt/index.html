@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="icon" href="favicon.ico">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+
+  <header class="navbar">
+    <div class="nav-container">
+      <a href="#home" class="logo">My<span>Portfolio</span></a>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+ 
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <img src="assets/images/profile/profile.jpg" alt="Profile picture" class="profile-img" onerror="this.style.display='none'">
+      <h1>Hi, I'm <span class="highlight">Supekshya Bhatta</span></h1>
+      <h2>Web Designer &amp; Developer</h2>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn btn-primary">View My Work</a>
+        <a href="#contact" class="btn btn-outline">Contact Me</a>
+      </div>
+    </div>
+  </section>
+
+ 
+  <section class="about" id="about">
+    <h2 class="section-title">About Me</h2>
+    <div class="about-content">
+      <p>
+        I'm a student learning web designing. I enjoy building websites using
+        HTML, CSS, and JavaScript. This portfolio is a project I made to show
+        my progress and the skills I am learning in college.
+      </p>
+    </div>
+  </section>
+
+  <section class="skills" id="skills">
+    <h2 class="section-title">My Skills</h2>
+    <div class="skills-grid" id="skillsGrid">
+    </div>
+  </section>
+
+  <section class="projects" id="projects">
+    <h2 class="section-title">My Projects</h2>
+    <div class="projects-grid" id="projectsGrid">
+  
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2 class="section-title">Contact Me</h2>
+    <form class="contact-form" id="contactForm">
+      <input type="text" id="name" name="name" placeholder="Your Name" required>
+      <input type="email" id="email" name="email" placeholder="Your Email" required>
+      <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn btn-primary">Send Message</button>
+    </form>
+    <p class="form-success" id="formSuccess">Thank you! Your message has been noted.</p>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; <span id="year"></span> Supekshya Bhatta. All rights reserved.</p>
+    <div class="social-links">
+      <a href="#">Facebook</a>
+      <a href="#">GitHub</a>
+      <a href="#">LinkedIn</a>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
